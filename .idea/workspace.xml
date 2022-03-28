@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7ba47e7-7d25-4e09-8815-128679282791" name="Default Changelist" comment=",">
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/cert/HuepferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/BufferedGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/Huepfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/HuepferPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/linien/cert/LinesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/linien/src/BufferedGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/linien/src/Lines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/linien/src/LinesPanel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="270FpMdr9GHUfhH4FgcS9MnwLb5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ComputerGrafik" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\linien\src" />
+      <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\linien\cert" />
+      <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\huepfer\cert" />
+      <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\huepfer\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Huepfer">
+    <configuration name="Huepfer" type="Application" factoryName="Application">
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="JUnit" factoryName="JUnit">
+      <module name="java" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Huepfer" />
+      <item itemvalue="JUnit.Test" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7ba47e7-7d25-4e09-8815-128679282791" name="Default Changelist" comment="" />
+      <created>1648449279273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648449279273</updated>
+      <workItem from="1648449280926" duration="379000" />
+      <workItem from="1648453694794" duration="1208000" />
+    </task>
+    <task id="LOCAL-00001" summary=",">
+      <created>1648454631447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648454631447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="," />
+    <option name="LAST_COMMIT_MESSAGE" value="," />
+  </component>
+</project>
