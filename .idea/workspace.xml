@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ba47e7-7d25-4e09-8815-128679282791" name="Default Changelist" comment=",">
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/cert/HuepferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/BufferedGraphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/Huepfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/HuepferPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/linien/cert/LinesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/linien/src/BufferedGraphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/linien/src/Lines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/linien/src/LinesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/.idea/libraries/com_github_junitrunner_junitrunner_0_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerGrafik/out/production/huepfer/huepfer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kacka/huepfer/huepfer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kacka/linien/linien.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerGrafik/.idea/ComputerGrafik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/.idea/ComputerGrafik.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerGrafik/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerGrafik/huepfer/huepfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/huepfer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/Huepfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/Huepfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerGrafik/linien/linien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/linien/linien.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,20 +33,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ComputerGrafik" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kacka" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -54,29 +60,46 @@
       <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\huepfer\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Huepfer">
-    <configuration name="Huepfer" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.LinesPanel">
+    <configuration name="HuepferPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HuepferPanel" />
       <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="LinesPanel" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="LinesPanel" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="JUnit" factoryName="JUnit">
+    <configuration name="HuepferTest" type="JUnit" factoryName="JUnit">
       <module name="java" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HuepferTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinienTest" type="JUnit" factoryName="JUnit">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinesTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -84,9 +107,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Huepfer" />
-      <item itemvalue="JUnit.Test" />
+      <item itemvalue="Application.LinesPanel" />
+      <item itemvalue="Application.HuepferPanel" />
+      <item itemvalue="JUnit.LinienTest" />
+      <item itemvalue="JUnit.HuepferTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HuepferPanel" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,6 +128,7 @@
       <updated>1648449279273</updated>
       <workItem from="1648449280926" duration="379000" />
       <workItem from="1648453694794" duration="1208000" />
+      <workItem from="1648458553011" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary=",">
       <created>1648454631447</created>

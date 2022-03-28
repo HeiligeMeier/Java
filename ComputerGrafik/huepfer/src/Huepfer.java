@@ -59,6 +59,7 @@ class Huepfer {
 	 */
 	int transformX(double x) {
 		// TODO Hier Code einfuegen ...
+		return 0;
 	}
 
 	/**
@@ -69,6 +70,7 @@ class Huepfer {
 	 */
 	int transformY(double y) {
 		// TODO Hier Code einfuegen ...
+		return 0;
 	}
 
 	public void render() {
