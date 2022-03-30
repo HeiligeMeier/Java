@@ -37,9 +37,8 @@ public class Lines {
 	void drawLineEquation(int x0, int y0, int x1, int y1) {
 		double m = (y1 - y0) / (x1 - x0);
 		double b = y0 - m * x0;
-		float y;
 		for (int x = x0; x <= x1; x++) {
-			y = (float) (m * x + b);
+			double y = (m * x + b);
 			setPixel(x, (int) Math.ceil(y));
 		}
 	}
@@ -60,10 +59,11 @@ public class Lines {
 		double m = (y1 - y0) / (x1 - x0);
 		double b = y0 - (m * x0);
 		double mm = ((y1 - y0) * Math.pow(2, b)) / (x1 - x0);
-		double y = y0 * Math.pow(2, b) + GAMMA;
+		float y = (float) (y0 * Math.pow(2, b) + GAMMA);
 		for (int x = x0; x < x1; x++) {
-			setPixel(x, (int)(y * Math.pow(2, (-b))));
-			y = y + mm;
+			y = (float) (y * Math.pow(2, -b));
+			setPixel(x, (int) (y));
+			y = (float) (y + mm);
 		}
 	}
 
@@ -94,5 +94,6 @@ public class Lines {
 			}
 			setPixel(x, y);
 		}
+		setPixel(0, 0);
 	}
 }
