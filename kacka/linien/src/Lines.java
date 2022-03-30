@@ -35,11 +35,12 @@ public class Lines {
 	 * @param y1 y-Koordinate Endpunkt
 	 */
 	void drawLineEquation(int x0, int y0, int x1, int y1) {
-		double m = (y1 - y0) / (x1 - x0);
+		double m = (y1 -y0) / (x1 - x0);
 		double b = y0 - m * x0;
-		for (int x = x0; x <= x1; x++) {
-			double y = (m * x + b);
-			setPixel(x, (int) Math.ceil(y));
+		for(int x = x0; x <= x1; x++) {
+			float y = (float) (m * x + b);
+			y = (int) (y + 0.5);
+			setPixel(x, (int) y);
 		}
 	}
 
@@ -56,14 +57,14 @@ public class Lines {
 	 * @param y1 y-Koordinate Endpunkt
 	 */
 	void drawDda(int x0, int y0, int x1, int y1) {
-		double m = (y1 - y0) / (x1 - x0);
-		double b = y0 - (m * x0);
-		double mm = ((y1 - y0) * Math.pow(2, b)) / (x1 - x0);
-		float y = (float) (y0 * Math.pow(2, b) + GAMMA);
-		for (int x = x0; x < x1; x++) {
-			y = (float) (y * Math.pow(2, -b));
-			setPixel(x, (int) (y));
-			y = (float) (y + mm);
+		double m = (y1 -y0) / (x1 - x0);
+		double b = y0 - m * x0;
+		double mm = ((y1 - y0) * Math.pow(2, b)) / (x1 -x0);
+		double y = y0 * Math.pow(2, b) + GAMMA;
+		for(int x = x0; x <= x1; x++) {
+			double filler = y * Math.pow(2, -b);
+			setPixel(x, (int) filler);
+			y = y + mm;
 		}
 	}
 
