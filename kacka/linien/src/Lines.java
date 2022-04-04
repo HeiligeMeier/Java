@@ -35,18 +35,19 @@ public class Lines {
 	 * @param y1 y-Koordinate Endpunkt
 	 */
 	void drawLineEquation(int x0, int y0, int x1, int y1) {
-		double m = (y1 - y0) / (x1 - x0);
+		int dy = y1 - y0;
+		int dx = x1 - x0;
+		double m = (double) dy / dx;
 		double b = y0 - m * x0;
-		for (int x = x0; x <= x1; x++) {
-			double y = (m * x + b);
-			setPixel(x, (int) Math.ceil(y));
+		for(int x = x0; x <= x1; x++) {
+			double y = m * x + b;
+			setPixel(x, (int) y);
 		}
 	}
 
 	// Shift geeignet bis Fensterhöhe 8192
 	private final static int SHIFT = 18;
 	private final static int GAMMA = 1 << (SHIFT - 5);
-
 	/**
 	 * Linien-Berechnung über Digital Differential Analyzer (DDA)
 	 * 
@@ -56,17 +57,17 @@ public class Lines {
 	 * @param y1 y-Koordinate Endpunkt
 	 */
 	void drawDda(int x0, int y0, int x1, int y1) {
-		double m = (y1 - y0) / (x1 - x0);
-		double b = y0 - (m * x0);
-		double mm = ((y1 - y0) * Math.pow(2, b)) / (x1 - x0);
-		float y = (float) (y0 * Math.pow(2, b) + GAMMA);
-		for (int x = x0; x < x1; x++) {
-			y = (float) (y * Math.pow(2, -b));
-			setPixel(x, (int) (y));
-			y = (float) (y + mm);
+		int b = 13;
+		int x = x0;
+		int m = ((y1 - y0) << b) / (x1 - x0);
+		int y = (y0 << b) + SHIFT;
+		while (x <= x1) {
+			int temp = y >> b;
+			setPixel(x, temp);
+			y = y + m;
+			x++;
 		}
 	}
-
 	/**
 	 * Linien-Berechnung über Bresenham
 	 * 
@@ -83,7 +84,8 @@ public class Lines {
 		int dNE = 2 * (dy - dx);
 		int x = x0;
 		int y = y0;
-		while (x < x1) {
+		while (x <= x1) {
+			setPixel(x, y);
 			if (D < 0) {
 				D = D + dE;
 				x++;
@@ -92,8 +94,6 @@ public class Lines {
 				x++;
 				y++;
 			}
-			setPixel(x, y);
 		}
-		setPixel(0, 0);
 	}
 }
