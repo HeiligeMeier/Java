@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kacka" />
+        <module name="Testat" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Testat2" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
