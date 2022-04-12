@@ -51,9 +51,7 @@ class Huepfer {
 		graphics.drawLine(x, y, x, y);
 	}
 
-	int transformX(double x) {
-		return (int) ((width / (xMax - xMin) * (x - xMin)));
-	}
+	int transformX(double x) { return (int) ((width / (xMax - xMin) * (x - xMin))); }
 	int transformY(double y) {
 		return (int) ((height/ (yMin - yMax) * (y - yMax)));
 	}
@@ -61,15 +59,12 @@ class Huepfer {
 	public void render() {
 		double x = 0;
 		double y = 0;
-		int farbe1 = 121;
-		int farbe2 = 36;
-		int farbe3 = 198;
 		for (int i = 0; i < this.num; i++) {
 			setPixel(transformX(x), transformY(y));
 			if(num % 100 == 0) {
-				farbe1 = (int) (Math.random() * 255);
-				farbe2 = (int) (Math.random() * 255);
-				farbe3 = (int) (Math.random() * 255);
+				int farbe1 = (int) (Math.random() * 255);
+				int farbe2 = (int) (Math.random() * 255);
+				int farbe3 = (int) (Math.random() * 255);
 				graphics.setColor(new Color(farbe1, farbe2, farbe3));
 			}
 			double xx = y - Math.signum(x) * Math.sqrt(Math.abs(this.b * x - this.c));
