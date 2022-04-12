@@ -105,10 +105,32 @@ public class BufferedGraphics extends Graphics {
 	public void drawLine(int x0, int y0, int x1, int y1) {
 		boolean finished = false;
 		if (!finished) {
-			if (x0 != x1 || y0 != y1) {
-				throw new IllegalArgumentException("Dieses drawLine unterstützt nur das Zeichnen von Punkten");
+			int dx = x1 - x0;
+			int dy = y1 - y0;
+
+			if (dx != 0 && dy != 0 && java.lang.Math.abs(dx) - java.lang.Math.abs(dy) != 0) {
+				throw new IllegalArgumentException("Dieses drawLine unterstützt nur das Zeichnen von Punkten,"
+						+ " waagrechten, vertikalen und diagonalen Linien (Steigung +1 oder -1)");
 			}
-			buffer[x0][y0] = paintingColor;
+			if (dx == 0) {
+				for (int y = y0; y <= y1; y++) {
+					buffer[x0][y] = paintingColor;
+				}
+			} else if (dy == 0) {
+				for (int x = x0; x <= x1; x++) {
+					buffer[x][y0] = paintingColor;
+				}
+			} else {
+				int xinc = (dx > 0) ? 1 : -1;
+				int yinc = (dy > 0) ? 1 : -1;
+				int x = x0;
+				int y = y0;
+				do {
+					buffer[x][y] = paintingColor;
+					x += xinc;
+					y += yinc;
+				} while (x <= x1);
+			}
 			finished = true;
 		}
 	}
