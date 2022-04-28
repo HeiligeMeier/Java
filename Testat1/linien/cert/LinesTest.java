@@ -2,7 +2,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.awt.Color;
 
-import huepfer.BufferedGraphics;
+import colorscheme.BufferedGraphics;
 import org.junit.Test;
 
 public class LinesTest {

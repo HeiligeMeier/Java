@@ -2,8 +2,11 @@ import static org.junit.Assert.assertEquals;
 
 import java.awt.Color;
 
-import colorscheme.BufferedGraphics;
+import scanline.BufferedGraphics;
 import org.junit.Test;
+import scanline.BufferedGraphics;
+import scanline.Polygon;
+import scanline.PolygonRasterer;
 
 public class PolygonRastererTest {
 	private static String expected = 

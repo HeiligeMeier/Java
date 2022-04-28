@@ -2,7 +2,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.awt.Graphics;
 
-import huepfer.BufferedGraphics;
+import colorscheme.BufferedGraphics;
 import org.junit.Assert;
 import org.junit.Test;
 

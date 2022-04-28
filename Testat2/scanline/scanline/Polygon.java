@@ -1,3 +1,5 @@
+package scanline;
+
 import java.util.LinkedList;
 
 /**
@@ -22,7 +24,7 @@ public class Polygon {
 	/**
 	 * Kanten in der Datenstruktur für den Scanline-Algorithmus zurückliefern.
 	 * 
-	 * @return Kanten für Edge Table
+	 * @return Kanten für scanline.Edge Table
 	 */
 	public LinkedList<Edge> getEdges() {
 		LinkedList<Edge> ret = new LinkedList<>();

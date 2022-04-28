@@ -1,11 +1,9 @@
-import static org.junit.Assert.assertEquals;
-
-import java.awt.Graphics;
-
-import colorscheme.BufferedGraphics;
 import org.junit.Test;
+import scanline.BufferedGraphics;
 
-import colorscheme.ColorSchemeBlackNull;
+import java.awt.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class MandelbrotTest {
 	private static String expected1 = 

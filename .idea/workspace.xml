@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ba47e7-7d25-4e09-8815-128679282791" name="Default Changelist" comment=",">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/.idea/libraries/com_github_junitrunner_junitrunner_0_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerGrafik/out/production/huepfer/huepfer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kacka/huepfer/huepfer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kacka/linien/linien.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerGrafik/.idea/ComputerGrafik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/.idea/ComputerGrafik.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerGrafik/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerGrafik/huepfer/huepfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/huepfer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/Huepfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/huepfer/src/Huepfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerGrafik/linien/linien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerGrafik/linien/linien.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat1/huepfer/cert/HuepferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat1/huepfer/cert/HuepferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat1/linien/cert/LinesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat1/linien/cert/LinesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/Mandelbrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/Mandelbrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/MandelbrotPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/MandelbrotPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/MandelbrotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/MandelbrotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorScheme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeBlackNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeBlackNull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeBlackWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeBlackWhite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeBrightness.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeBrightness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeHue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeHue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeSaturation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeSaturation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/scanline/BufferedGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/BufferedGraphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/scanline/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/scanline/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/scanline/PolygonRasterer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/PolygonRasterer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/scanline/PolygonRastererPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/PolygonRastererPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/scanline/PolygonRastererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/PolygonRastererTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat2/scanline/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherland.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +35,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherland.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="270FpMdr9GHUfhH4FgcS9MnwLb5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -48,9 +72,10 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,10 +84,13 @@
       <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\huepfer\cert" />
       <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\huepfer\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LinesPanel">
-    <configuration name="HuepferPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HuepferPanel" />
+  <component name="RunManager" selected="JUnit.CohenSutherlandTest.testDiagonalClipLine">
+    <configuration name="CohenSutherlandPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CohenSutherlandPanel" />
       <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,6 +99,19 @@
     <configuration name="LinesPanel" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="LinesPanel" />
       <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolygonRastererPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scanline.PolygonRastererPanel" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scanline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +125,25 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CohenSutherlandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CohenSutherlandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CohenSutherlandTest.testDiagonalClipLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CohenSutherlandTest" />
+      <option name="METHOD_NAME" value="testDiagonalClipLine" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,15 +168,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MandelbrotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MandelbrotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LinesPanel" />
-      <item itemvalue="Application.HuepferPanel" />
+      <item itemvalue="Application.CohenSutherlandPanel" />
+      <item itemvalue="Application.PolygonRastererPanel" />
       <item itemvalue="JUnit.LinienTest" />
       <item itemvalue="JUnit.HuepferTest" />
+      <item itemvalue="JUnit.MandelbrotTest" />
+      <item itemvalue="JUnit.CohenSutherlandTest" />
+      <item itemvalue="JUnit.CohenSutherlandTest.testDiagonalClipLine" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HuepferPanel" />
+        <item itemvalue="JUnit.CohenSutherlandTest.testDiagonalClipLine" />
+        <item itemvalue="Application.CohenSutherlandPanel" />
+        <item itemvalue="JUnit.CohenSutherlandTest" />
+        <item itemvalue="Application.PolygonRastererPanel" />
+        <item itemvalue="JUnit.MandelbrotTest" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +208,19 @@
       <workItem from="1648449280926" duration="379000" />
       <workItem from="1648453694794" duration="1208000" />
       <workItem from="1648458553011" duration="472000" />
+      <workItem from="1649759730892" duration="1079000" />
+      <workItem from="1650543206698" duration="1561000" />
+      <workItem from="1650545264258" duration="714000" />
+      <workItem from="1650546602065" duration="768000" />
+      <workItem from="1650606156357" duration="7202000" />
+      <workItem from="1650619685233" duration="4739000" />
+      <workItem from="1650866816846" duration="2198000" />
+      <workItem from="1650951167505" duration="7773000" />
+      <workItem from="1650959388284" duration="1321000" />
+      <workItem from="1650965182345" duration="2615000" />
+      <workItem from="1650967965222" duration="614000" />
+      <workItem from="1650971238413" duration="2914000" />
+      <workItem from="1651138779564" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary=",">
       <created>1648454631447</created>
@@ -139,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648454631447</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=",">
+      <created>1649759925025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649759925025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,5 +258,24 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="," />
     <option name="LAST_COMMIT_MESSAGE" value="," />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="17" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

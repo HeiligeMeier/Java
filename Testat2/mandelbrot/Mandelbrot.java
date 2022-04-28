@@ -1,6 +1,4 @@
 import java.awt.Graphics;
-import java.math.*;
-import colorscheme.ColorScheme;
 
 public class Mandelbrot {
 	/** Graphics-Objekt zum Zeichnen */

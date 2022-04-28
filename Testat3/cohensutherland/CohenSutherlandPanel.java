@@ -46,14 +46,15 @@ public class CohenSutherlandPanel extends JPanel {
 		graphics.drawRect(border, border, width - 2 * border, height - 2 * border);
 
 		// geclippte Linien in weiß mit etwas breiterem Strich
-		graphics.setColor(Color.WHITE);
+		graphics.setColor(Color.GREEN);
 		((Graphics2D) graphics).setStroke(new BasicStroke(2));
 
 		CohenSutherland cohenSutherland = new CohenSutherland(graphics, xmin, ymin, xmax, ymax);
 		// Zeichne einzelne Linie (xA, yA) -- (xE, yE).
 		// Modifizieren Sie die Koordinaten um verschiedene Lagen von Linie zu Clip-Rechteck zu testen.
-		cohenSutherland.clipLine(300, 300, 500, 500);
-		
+		cohenSutherland.clipLine(200, 200, 600, 600);
+//		cohenSutherland.clipLine(400, 200, 110, 700);
+
 		// Wenn alles geht, können Sie auch das probieren.
 		// Generiere 100 Linien über zufällige Anfangs- und Endpunkte.
 		int nrLines = 100;

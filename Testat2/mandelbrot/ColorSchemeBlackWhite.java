@@ -1,5 +1,3 @@
-package colorscheme;
-
 import java.awt.Color;
 
 /**

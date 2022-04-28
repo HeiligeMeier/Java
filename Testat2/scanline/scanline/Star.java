@@ -1,9 +1,11 @@
+package scanline;
+
 /**
- * Sternen-Polygon
+ * Sternen-scanline.Polygon
  */
 public class Star extends Polygon {
 	/**
-	 * By the power of math erzeugtes Sternen-Polygon
+	 * By the power of math erzeugtes Sternen-scanline.Polygon
 	 * @param midx x-Koordinate Mittelpunkt
 	 * @param midy y-Koordinate Mittelpunkt
 	 * @param rInner Enfernung der inneren Eckpunkte vom Mittelpunkt

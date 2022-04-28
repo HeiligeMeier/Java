@@ -1,3 +1,5 @@
+package scanline;
+
 import java.awt.Graphics;
 import java.util.Comparator;
 import java.util.LinkedList;
@@ -13,9 +15,9 @@ public class PolygonRasterer {
 	private Graphics graphics;
 	/** Höhe des Zeichenfensters */
 	private int height;
-	/** Die Edge Table */
+	/** Die scanline.Edge Table */
 	private LinkedList<Edge> edgeTable = new LinkedList<>();
-	/** Die Active Edge Table */
+	/** Die Active scanline.Edge Table */
 	private LinkedList<Edge> activeEdgeTable = new LinkedList<>();
 	private int r;
 
@@ -37,7 +39,7 @@ public class PolygonRasterer {
 				int yMin = edge.getYMin();
 				// Kanten mit yMin = y werden in AET aufgenommen
 				if (yMin == y) {
-					activeEdgeTable.add(edge);
+					activeEdgeTable.add(new Edge(edge));
 				}
 			}
 

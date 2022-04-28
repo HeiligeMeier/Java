@@ -7,12 +7,6 @@ import java.awt.event.KeyListener;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import colorscheme.ColorScheme;
-import colorscheme.ColorSchemeBlackWhite;
-import colorscheme.ColorSchemeBrightness;
-import colorscheme.ColorSchemeHue;
-import colorscheme.ColorSchemeSaturation;
-
 @SuppressWarnings({ "serial", "unused" })
 class MandelbrotPanel extends JPanel {
 

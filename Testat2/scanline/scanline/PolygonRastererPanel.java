@@ -1,3 +1,5 @@
+package scanline;
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -12,7 +14,7 @@ class PolygonRastererPanel extends JPanel {
 	private int width = 1000;
 	private int height = 1000;
 
-	/** Der genutzte PolygonRasterer */
+	/** Der genutzte scanline.PolygonRasterer */
 	private PolygonRasterer polygonRasterer;
 
 
@@ -81,7 +83,7 @@ class PolygonRastererPanel extends JPanel {
 	}
 
 	public static void main(String[] args) {
-		JFrame frame = new JFrame("Polygon-Rasterung");
+		JFrame frame = new JFrame("scanline.Polygon-Rasterung");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.add(new PolygonRastererPanel());
 		frame.pack();
