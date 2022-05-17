@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ba47e7-7d25-4e09-8815-128679282791" name="Default Changelist" comment=",">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sudoku/src/Board/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sudoku/src/Board/Rules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sudoku/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sudoku/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testat4/Triangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testat4/bezier/bezier/Bezier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testat4/bezier/bezier/BezierPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testat4/bezier/bezier/BezierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testat4/bezier/bezier/BufferedGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testat4/bezier/bezier/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat1/huepfer/cert/HuepferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat1/huepfer/cert/HuepferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat1/linien/cert/LinesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat1/linien/cert/LinesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/Mandelbrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/Mandelbrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/MandelbrotPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/MandelbrotPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/MandelbrotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/MandelbrotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorScheme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeBlackNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeBlackNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeBlackWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeBlackWhite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeBrightness.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeBrightness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeHue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeHue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/mandelbrot/colorscheme/ColorSchemeSaturation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/mandelbrot/ColorSchemeSaturation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/scanline/BufferedGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/BufferedGraphics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/scanline/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/scanline/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/scanline/PolygonRasterer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/PolygonRasterer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/scanline/PolygonRastererPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/PolygonRastererPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/scanline/PolygonRastererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/PolygonRastererTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testat2/scanline/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat2/scanline/scanline/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testat3/cohensutherland/BufferedGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat3/cohensutherland/cohensutherland/BufferedGraphics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherland.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherland.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandTest.java" afterDir="false" />
@@ -32,6 +23,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kacka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,16 +77,30 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Documents\Git\Java\Testat4\bezier\bezier" />
+      <recent name="C:\Users\Acer\Documents\Git\Java\Testat4\Test" />
       <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\linien\src" />
       <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\linien\cert" />
       <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\huepfer\cert" />
-      <recent name="C:\Users\Acer\Documents\Git\java\ComputerGrafik\huepfer\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CohenSutherlandTest.testDiagonalClipLine">
+  <component name="RunManager" selected="JUnit.BezierTest">
+    <configuration name="BezierPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bezier.BezierPanel" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CohenSutherlandPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CohenSutherlandPanel" />
       <module name="java" />
@@ -103,28 +115,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolygonRastererPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scanline.PolygonRastererPanel" />
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Triangle" />
       <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scanline.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="BezierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bezier" />
+      <option name="MAIN_CLASS_NAME" value="bezier.BezierTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,16 +142,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CohenSutherlandTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CohenSutherlandTest.testDiagonalClipLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CohenSutherlandTest" />
-      <option name="METHOD_NAME" value="testDiagonalClipLine" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,32 +166,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MandelbrotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MandelbrotTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.LinesPanel" />
       <item itemvalue="Application.CohenSutherlandPanel" />
-      <item itemvalue="Application.PolygonRastererPanel" />
+      <item itemvalue="Application.BezierPanel" />
+      <item itemvalue="Application.Triangle" />
       <item itemvalue="JUnit.LinienTest" />
       <item itemvalue="JUnit.HuepferTest" />
-      <item itemvalue="JUnit.MandelbrotTest" />
       <item itemvalue="JUnit.CohenSutherlandTest" />
-      <item itemvalue="JUnit.CohenSutherlandTest.testDiagonalClipLine" />
+      <item itemvalue="JUnit.BezierTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CohenSutherlandTest.testDiagonalClipLine" />
+        <item itemvalue="JUnit.BezierTest" />
+        <item itemvalue="Application.BezierPanel" />
+        <item itemvalue="Application.Triangle" />
         <item itemvalue="Application.CohenSutherlandPanel" />
         <item itemvalue="JUnit.CohenSutherlandTest" />
-        <item itemvalue="Application.PolygonRastererPanel" />
-        <item itemvalue="JUnit.MandelbrotTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +209,30 @@
       <workItem from="1650965182345" duration="2615000" />
       <workItem from="1650967965222" duration="614000" />
       <workItem from="1650971238413" duration="2914000" />
-      <workItem from="1651138779564" duration="329000" />
+      <workItem from="1651138779564" duration="1967000" />
+      <workItem from="1651142300651" duration="418000" />
+      <workItem from="1651148371394" duration="3398000" />
+      <workItem from="1651419667066" duration="3795000" />
+      <workItem from="1651425485500" duration="269000" />
+      <workItem from="1651425842170" duration="50000" />
+      <workItem from="1651434467479" duration="7121000" />
+      <workItem from="1651471510281" duration="3806000" />
+      <workItem from="1651556629846" duration="3679000" />
+      <workItem from="1651560802405" duration="279000" />
+      <workItem from="1651561847445" duration="1383000" />
+      <workItem from="1651819675234" duration="42000" />
+      <workItem from="1652077347420" duration="534000" />
+      <workItem from="1652082699022" duration="677000" />
+      <workItem from="1652083923463" duration="7000" />
+      <workItem from="1652163187081" duration="254000" />
+      <workItem from="1652164985859" duration="42000" />
+      <workItem from="1652167278001" duration="1313000" />
+      <workItem from="1652169658077" duration="879000" />
+      <workItem from="1652421184912" duration="1145000" />
+      <workItem from="1652423817481" duration="18000" />
+      <workItem from="1652681099399" duration="3975000" />
+      <workItem from="1652765834544" duration="6981000" />
+      <workItem from="1652773771138" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary=",">
       <created>1648454631447</created>
@@ -236,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649759925025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=",">
+      <created>1651139402412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651139402412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,11 +289,6 @@
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="17" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Testat3/cohensutherland/CohenSutherlandTest.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

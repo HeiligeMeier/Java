@@ -18,6 +18,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Testat2/mandelbrot" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Testat2/scanline" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Testat3/cohensutherland" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Testat4/Test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Testat4/Triangle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Testat4/bezier" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

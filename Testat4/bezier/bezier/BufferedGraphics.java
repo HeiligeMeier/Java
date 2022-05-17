@@ -1,3 +1,5 @@
+package bezier;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -100,37 +102,54 @@ public class BufferedGraphics extends Graphics {
 		return false;
 	}
 	
+	private void drawLineXwise(int x0, int y0, int x1, int y1) {
+		double m = ((double) (y1 - y0)) / (x1 - x0);
+		double b = y0 - m * x0;
+		for (int x = x0; x <= x1; x++) {
+			double y = m * x + b;
+			buffer[x][(int) (y + 0.5)] = paintingColor;
+		}
+	}
+	
+	private void drawLineYwise(int x0, int y0, int x1, int y1) {
+		double m = ((double) (y1 - y0)) / (x1 - x0);
+		double b = y0 - m * x0;
+		for (int y = y0; y <= y1; y++) {
+			double x = (y - b) / m;
+			buffer[(int) (x + 0.5)][y] = paintingColor;
+		}
+	}
 
 	@Override
 	public void drawLine(int x0, int y0, int x1, int y1) {
 		boolean finished = false;
 		if (!finished) {
-			int dx = x1 - x0;
-			int dy = y1 - y0;
-
-			if (dx != 0 && dy != 0 && java.lang.Math.abs(dx) - java.lang.Math.abs(dy) != 0) {
-				throw new IllegalArgumentException("Dieses drawLine unterstützt nur das Zeichnen von Punkten,"
-						+ " waagrechten, vertikalen und diagonalen Linien (Steigung +1 oder -1)");
-			}
-			if (dx == 0) {
+			if (x0 == x1) {
+				// vertikale Linie
 				for (int y = y0; y <= y1; y++) {
-					buffer[x0][y] = paintingColor;
+					buffer[x1][y] = paintingColor;
 				}
-			} else if (dy == 0) {
-				for (int x = x0; x <= x1; x++) {
-					buffer[x][y0] = paintingColor;
-				}
-			} else {
-				int xinc = (dx > 0) ? 1 : -1;
-				int yinc = (dy > 0) ? 1 : -1;
-				int x = x0;
-				int y = y0;
-				do {
-					buffer[x][y] = paintingColor;
-					x += xinc;
-					y += yinc;
-				} while (x <= x1);
 			}
+			else {
+				int diffx = x1 - x0;
+				int diffy = y1 - y0;
+				if (Math.abs(diffx) >= Math.abs(diffy)) {
+					if (x1 >= x0) {
+						drawLineXwise(x0, y0, x1, y1);
+					}
+					else {
+						drawLineXwise(x1, y1, x0, y0);
+					}
+				}
+				else {
+					if (y1 >= y0) {
+						drawLineYwise(x0, y0, x1, y1);
+					}
+					else {
+						drawLineYwise(x1, y1, x0, y0);
+					}
+				}
+			}			
 			finished = true;
 		}
 	}

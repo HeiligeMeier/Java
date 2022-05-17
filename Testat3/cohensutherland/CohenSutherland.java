@@ -12,14 +12,10 @@ public class CohenSutherland {
 	private int xmax;
 	private int ymin;
 	private int ymax;
-	private int b1;
-	private int b2;
-	private int b3;
-	private int b4;
 
 	/**
 	 * Ctor.
-	 * 
+	 *
 	 * @param graphics Zum Zeichnen
 	 * @param xmin     minimale x-Koordinate
 	 * @param ymin     minimale y-Koordinate
@@ -33,32 +29,34 @@ public class CohenSutherland {
 		this.ymin = ymin;
 		this.xmax = xmax;
 		this.ymax = ymax;
-
 	}
 
 	/**
 	 * Berechne den Cohen-Sutherland-Outputcode für einen Punkt.
-	 * 
+	 *
 	 * @formatter:off
-	 * viertletztes Bit = 1 <=> y > ymax 
+	 * viertletztes Bit = 1 <=> y > ymax
 	 * drittletztes Bit = 1 <=> y < ymin
-	 * vorletztes Bit = 1 <=> x > xmax 
+	 * vorletztes Bit = 1 <=> x > xmax
 	 * letztes Bit = 1 <=> x < xmin
 	 * @formatter:on
-	 * 
+	 *
 	 * Die 4 Bits werden sehr verschwenderisch in einem int untergebracht.
-	 * 
+	 *
 	 * Warum kein byte? Die bitweisen Operationen sind für Datentyp byte nicht
 	 * definiert! Genauer werden z.B. die Bytes bei byte1 | byte2 zu ints gecastet
 	 * und das Ergebnis ist ein int.
 	 * Mehr Details: <a href="https://stackoverflow.com/questions/27582233/why-byte-and-short-values-are-promoted-to-int-when-an-expression-is-evaluated">Stack Overflow</a>
-	 * 
+	 *
 	 * @param x x-Koordinate Punkt
 	 * @param y y-Koordinate Punkt
 	 * @return Outputcode
 	 */
 	int outputCode(int x, int y) {
-		b1 = b2 = b3 = b4 = 0;
+		int b1 = 0;
+		int b2 = 0;
+		int b3 = 0;
+		int b4 = 0;
 		if (y > ymax) {
 			b1 = 1;
 		}
@@ -78,7 +76,7 @@ public class CohenSutherland {
 	 * Clipping nach Cohen-Sutherland. Die Linie von (xA,yA) nach (xE,yE) wird an
 	 * dem durch die Attribute (xmin,ymin) und (xmax,ymax) definierten Rechteck
 	 * geclippt und der sichtbare Teil der Linie gezeichnet.
-	 * 
+	 *
 	 * @param xA x-Koordinate Anfangspunkt Linie
 	 * @param yA y-Koordinate Anfangspunkt Linie
 	 * @param xE x-Koordinate Endpunkt Linie
@@ -87,103 +85,87 @@ public class CohenSutherland {
 	void clipLine(int xA, int yA, int xE, int yE) {
 		int ocA = outputCode(xA, yA);
 		int ocE = outputCode(xE, yE);
+		double xSchnitt = xE - xA;
+		double ySchnitt = yE - yA;
+		double yDiv = xSchnitt / ySchnitt;
+		double xDiv = ySchnitt / xSchnitt;
+		int count = 0;
 
 		// Linien die außerhalb des Rechtecks liegen
-		if ((ocA | ocE) != 0) {
-			// Schnittpunkt obere Linie
-			if ((ocA & 0b1000) != 0) {
-//				System.out.println("oben");
+		if ((ocA | ocE) != 0b0000) {
+//			graphics.setColor(Color.GRAY);
+//			graphics.drawLine(xA, yA, xE, yE);
+			if ((ocA & 0b1000) != 0 & (ocE & 0b1000) != 0 ||
+					(ocA & 0b0100) != 0 & (ocE & 0b0100) != 0 ||
+					(ocA & 0b0010) != 0 & (ocE & 0b0010) != 0 ||
+					(ocA & 0b0001) != 0 & (ocE & 0b0001) != 0) {
+//				System.out.println("Linie außerhalb");
+				// Schnittpunkt obere Linie
+			} else if ((ocA & 0b1000) != 0) {
+//				System.out.println("oben yA");
 				double y = ymax;
-				double a = xE - xA;
-				double b = yE - yA;
-				if (b != 0) {
-					double c = a / b;
-					double d = c * (y - yE);
-					double x = d + xE;
-					clipLine(xE, yE, (int) x, (int) y);
+				if (ySchnitt != 0) {
+					double x = yDiv * (y - yE) + xE;
+					clipLine((int) x, (int) y, xE, yE);
 				}
 			} else if ((ocE & 0b1000) != 0) {
-				System.out.println("oben");
+//				System.out.println("oben yE");
 				double y = ymax;
-				double a = xE - xA;
-				double b = yE - yA;
-				if (b != 0) {
-					double c = a / b;
-					double d = c * (y - yE);
-					double x = d + xE;
+				if (ySchnitt != 0) {
+					double x = yDiv * (y - yE) + xE;
 					clipLine(xA, yA, (int) x, (int) y);
 				}
+
 				// Schnittpunkt untere Linie
 			} else if ((ocA & 0b0100) != 0) {
-				System.out.println("unten");
+//				System.out.println("unten");
 				double y = ymin;
-				double a = xE - xA;
-				double b = yE - yA;
-				if (b != 0) {
-					double c = a / b;
-					double d = c * (y - yE);
-					double x = d + xE;
-					clipLine(xE, yE, (int) x, (int) y);
+				if (ySchnitt != 0) {
+					double x = yDiv * (y - yE) + xE;
+					clipLine((int) x, (int) y, xE, yE);
 				}
 			} else if ((ocE & 0b0100) != 0) {
-				System.out.println("unten");
+//				System.out.println("unten");
 				double y = ymin;
-				double a = xE - xA;
-				double b = yE - yA;
-				if (b != 0) {
-					double c = a / b;
-					double d = c * (y - yE);
-					double x = d + xE;
+				if (ySchnitt != 0) {
+					double x = yDiv * (y - yE) + xE;
 					clipLine(xA, yA, (int) x, (int) y);
 				}
-			} else if ((ocA & 0b0001) != 0) {
+
+				// Schnittpunkt rechte Linie
+			} else if ((ocA & 0b0010) != 0) {
+//				System.out.println("rechts");
+				double x = xmax;
+				if (xSchnitt != 0) {
+					double y = xDiv * (x - xE) + yE;
+					clipLine((int) x, (int) y, xE, yE);
+				}
+			} else if ((ocE & 0b0010) != 0) {
+//				System.out.println("rechts");
+				double x = xmax;
+				if (xSchnitt != 0) {
+					double y = xDiv * (x - xE) + yE;
+					clipLine(xA, yA, (int) x, (int) y);
+				}
+
 				// Schnittpunkt linke Linie
-				System.out.println("links");
+			} else if ((ocA & 0b0001) != 0) {
+//				System.out.println("links");
 				double x = xmin;
-				double a = yE - yA;
-				double b = xE - xA;
-				if (b != 0) {
-					double c = a / b;
-					double d = c * (x - xE);
-					double y = d + yE;
+				if (xSchnitt != 0) {
+					double y = xDiv * (x - xE) + yE;
 					clipLine((int) x, (int) y, xE, yE);
 				}
 			} else if ((ocE & 0b0001) != 0) {
-				System.out.println("links");
+//				System.out.println("links");
 				double x = xmin;
-				double a = yE - yA;
-				double b = xE - xA;
-				if (b != 0) {
-					double c = a / b;
-					double d = c * (x - xE);
-					double y = d + yE;
-					clipLine(xA, yA, (int) x, (int) y);
-				}
-				// Schnittpunkt rechte Linie
-			} else if ((ocA & 0b0010) != 0) {
-				System.out.println("rechts");
-				double x = xmax;
-				double a = yE - yA;
-				double b = xE - xA;
-				if (b != 0) {
-					double c = a / b;
-					double d = c * (x - xE);
-					double y = d + yE;
-					clipLine(xE, yE, (int) x, (int) y);
-				}
-			} else if ((ocE & 0b0010) != 0) {
-				System.out.println("rechts");
-				double x = xmax;
-				double a = yE - yA;
-				double b = xE - xA;
-				if (b != 0) {
-					double c = a / b;
-					double d = c * (x - xE);
-					double y = d + yE;
+				if (xSchnitt != 0) {
+					double y = xDiv * (x - xE) + yE;
 					clipLine(xA, yA, (int) x, (int) y);
 				}
 			}
 		} else {
+			graphics.setColor(Color.GREEN);
 			graphics.drawLine(xA, yA, xE, yE);
 		}
 	}
